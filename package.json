@@ -1,0 +1,24 @@
+{
+  "name": "@aaron-zon/prettier-config",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "bumpp && pnpm publish"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "bumpp": "^9.2.0",
+    "prettier": "^3.0.3"
+  },
+  "prettier": "./index.js"
+}
