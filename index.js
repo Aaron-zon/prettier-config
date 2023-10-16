@@ -1,6 +1,6 @@
 module.exports = {
     /** 单行最大文字数*/
-    printWidth: 100,
+    printWidth: 120,
     /** tab填充空格数 */
     tabWidth: 4,
 
